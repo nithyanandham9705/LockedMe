@@ -28,7 +28,7 @@ public class DirFileOperations {
 		DirFileOperations.createMainFolderIfNotPresent("main");
 		// All required files and folders inside "main" folder relative to current
 		// folder
-		System.out.println("Displaying all files with directory structure in ascending order\n");
+		System.out.println("Displaying all files with directory structure in Ascending Order\n");
 
 		// listFilesInDirectory displays files along with folder structure
 		List<String> filesListNames = DirFileOperations.listFilesInDirectory(path, 0, new ArrayList<String>());
