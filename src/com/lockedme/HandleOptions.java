@@ -94,7 +94,7 @@ public class HandleOptions {
 					return;
 				case 5:
 					// Exit
-					System.out.println("PROGRAM EXITED SUCCESSFULLY.");
+					System.out.println("Program exited  Successfully.");
 					running = false;
 					sc.close();
 					System.exit(0);
