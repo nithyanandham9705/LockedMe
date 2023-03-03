@@ -5,10 +5,10 @@ public class FileMenuOptions {
 	public static void printWelcomeScreen(String appName, String developerName) {
 		String companyDetails = String.format("*****************************************************\n"
 				+ "** Welcome To %s.com. \n" + "** This Application Was Developed By %s.\n"
-				+ "*****************************************************\n", appName, developerName);
+				+ "*****************************************\n", appName, developerName);
 		String appFunction = "Usage Of This Application Is To: \n"
-				+ "• Retrieve All File Names In The \"main\" folder\n"
-				+ "• Search, Add, Or Delete Files In \"main\" folder.\n"
+				+ "â€¢ Retrieve All File Names In The \"main\" folder\n"
+				+ "â€¢ Search, Add, Or Delete Files In \"main\" folder.\n"
 				+ "\n**Please Be Careful To Ensure The Correct Filename Is Provided For Searching Or Deleting Files.**\n";
 		System.out.println(companyDetails);
 
